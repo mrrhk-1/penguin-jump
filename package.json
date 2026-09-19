@@ -1,0 +1,11 @@
+{
+  "name": "penguin-jump",
+  "version": "1.0.0",
+  "description": "A browser-based Penguin Jump game built with HTML, CSS, and JavaScript, with CI/CD via GitHub Actions and GitHub Pages.",
+  "main": "script.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Hassan",
+  "license": "MIT"
+}

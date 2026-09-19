@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penguin Jump 🐧</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <h1>🐧 Penguin Jump</h1>
+
+    <div class="hud">
+      <span>Score: <b id="score">0</b></span>
+      <span>Best: <b id="best">0</b></span>
+    </div>
+
+    <div id="game" class="game-area">
+      <div id="penguin" class="penguin">🐧</div>
+      <div id="obstacle" class="obstacle">🧊</div>
+
+      <div id="gameOver" class="game-over hidden">
+        <h2>Game Over!</h2>
+        <p>Your score: <b id="finalScore">0</b></p>
+        <button onclick="restartGame()">Play Again</button>
+      </div>
+    </div>
+
+    <p class="hint">Press <b>SPACE</b> or <b>↑</b> or <b>Click</b> to jump</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>s
