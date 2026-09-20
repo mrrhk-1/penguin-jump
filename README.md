@@ -18,7 +18,7 @@ A browser-based endless runner game where a penguin jumps over ice obstacles.
 HTML5 · CSS3 · Vanilla JavaScript · GitHub Actions · GitHub Pages
 
 ## 🔗 Live Demo
-https://hassan.github.io/penguin-jump/
+https://mrrhk-1.github.io/penguin-jump/
 
 ## 🧪 Run Locally
 Just open `index.html` in your browser.
